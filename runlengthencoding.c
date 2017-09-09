@@ -1,5 +1,5 @@
 /*
-/* * citrix_rle.c
+/* * rle.c
  *
  *  Created on: May 8, 2017
  *      Author: bindus
@@ -10,7 +10,7 @@ Compression
 
 Write a program that takes two arguments: an input filename and an output filename.
 
-Write the input file’s contents to the output file, compressing any repeated sequences of characters.
+Write the input fileâ€™s contents to the output file, compressing any repeated sequences of characters.
 
 Examples:
 Input: abc            Output: abc
@@ -22,7 +22,7 @@ Compression (cont.)
 
 Cases to consider:
 Very large input file
-¡Feliz cumpleaños!
+Â¡Feliz cumpleaÃ±os!
 
 
 Decompression
@@ -31,7 +31,7 @@ Write a program that takes two arguments: an input filename and an output filena
 
 The input file is the output of the compression algorithm from the previous problem.
 
-Write the input file’s contents to the output file, expanding any compressed sequences of characters.
+Write the input fileâ€™s contents to the output file, expanding any compressed sequences of characters.
 
 Examples:
 Input: abc            Output: abc
